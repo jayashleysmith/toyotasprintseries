@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="/assets/img/hero/Slider03-1200x400.png">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="bs-text">
+                    <h2>{{page.hero_title}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+    <!-- Results Section Begin -->
+    <section class="schedule-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 left-blog-pad">
+                    {% for faq in site.data.faqs %}
+                    {% assign value = forloop.index | modulo:2 %}
+                    {% if value == 1 %}
+                    <div class="schedule-text">
+                        <h4 class="st-title">{{faq.question}}</h4>
+                        {{faq.answer}}
+                    </div>
+                    <br>
+                    
+                        {% endif %}
+               
+                    {% endfor %}
+
+                   
+                </div>
+
+                <div class="col-lg-6 left-blog-pad">
+                    {% for faq in site.data.faqs %}
+                    {% assign value = forloop.index | modulo:2 %}
+                    {% if value == 0 %}
+                    <div class="schedule-text">
+                        <h4 class="st-title">{{faq.question}}</h4>
+                        {{faq.answer}}
+                    </div>
+                    <br>
+                    
+                        {% endif %}
+               
+                    {% endfor %}
+
+                
+            </div>
+            
+        </div>
+    </section>
+    <!-- Results Section End -->

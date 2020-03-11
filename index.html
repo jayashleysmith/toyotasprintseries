@@ -1,0 +1,207 @@
+---
+layout: default
+title: Welcome to Toyota Sprint Series
+description: A friendly sprint competition series for Toyota & Lexus based vehicles
+
+---
+
+ <!-- Hero Section Begin -->
+ <section class="hero-section set-bg" data-setbg="/assets/img/Slider07-1200x400.png">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="hs-item">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="hs-text">
+                                  <h2>{{page.title}}</h2>
+                                  <h4>{{page.description}}</h4>
+                                  <a href="/events.html" class="primary-btn">See Events</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+  <!-- Trending News Section Begin -->
+  <div class="trending-news-section">
+    <div class="container">
+        <div class="tn-title"><i class="fa fa-caret-right"></i> Trending News</div>
+        <div class="news-slider owl-carousel">
+           
+            {% for trending in site.data.trending_news %}
+            <div class="nt-item">{{ trending.title }}</div>
+            {% endfor %} 
+        </div>
+    </div>
+</div>
+<!-- Trending News Section End -->
+
+<!-- match section being-->
+
+<section class="match-section set-bg" data-setbg="/assets/img/match/match-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="ms-content">
+                    <h4>Next Events</h4>
+                    {% assign sorted_events = site.data.events | sort: "date" %}
+                    {% for event in sorted_events limit: 3  %}
+                    <div class="mc-table">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="mt-content">
+                                        <h4>{{event.circuit}}</h4>
+                                        <div class="mc-op">{{event.date | date: "%A %d %B %Y"}}</div>
+                                    </td>
+                                   
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                     {% endfor %}
+
+                    
+                    
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="ms-content">
+                    <h4>Recent Results</h4>
+
+
+                    {% for result in site.data.recent_results %}
+                    <div class="mc-table">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="left-team">
+                                        <img src="/assets/img/match/tf-2.jpg" alt="">
+                                        <h6>{{result.driver_name}}</h6>
+                                    </td>
+                                    <td class="mt-content">
+                                        <div class="mc-op">{{result.circuit}}</div>
+                                        <h4>{{result.time}}</h4>
+                                        <div class="mc-op">{{result.date}}</div>
+                                    </td>
+                                    <td class="right-team">
+                                    
+                                        <h6>Pro</h6>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                  {% endfor %}
+
+
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Match Section End -->
+
+
+ <!-- Latest Section Begin -->
+ <section class="latest-section">
+    <div class="container">
+        <div class="row"><br> </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h3>Champtionship <span>Ranking</span></h3>
+                </div>
+                <div class="points-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="th-o">Pos</th>
+                                <th>Driver</th>
+                                <th class="th-o">R1</th>
+                                <th class="th-o">R2</th>
+                                <th class="th-o">R3</th>
+                                <th class="th-o">R4</th>
+                                <th class="th-o">R5</th>
+                                <th class="th-o">R6</th>
+                                <th class="th-o">Dropped</th>
+                                <th class="th-o">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        
+                            {% assign sorted_results = site.data.championship_results | sort: "Total" | reverse %}
+                            {% for driver in sorted_results %}
+
+                            <tr>
+                                <td>{{ forloop.index }}</td>
+                                <td class="team-name">
+                                   
+                                    <span>{{driver.driver_name}}</span>
+                                </td>
+                                <td>{{driver.R1}}</td>
+                                <td>{{driver.R1}}</td>
+                                <td>{{driver.R1}}</td>
+                                <td>{{driver.R1}}</td>
+                                <td>{{driver.R1}}</td>
+                                <td>{{driver.R1}}</td>
+                                <td>{{driver.Dropped}}</td>
+                                <td>{{driver.Total}}</td>
+                            </tr>
+                        {% endfor %}
+
+                        </tbody>
+                    </table>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Latest Section End -->
+
+
+
+  <!-- Video Section Begin -->
+  <section class="video-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h3>Onboard <span>Videos</span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="video-slider owl-carousel">
+            
+
+                {% for video in site.data.onboard_videos %}
+               
+                <div class="col-lg-3">
+                    <div class="video-item set-bg" data-setbg="{{video.thumbnail}}">
+                        <div class="vi-title">
+                            <h5>{{video.title}}</h5>
+                        </div>
+                        <a href="{{video.youtube_link}}" class="play-btn" target="_blank"><img
+                                src="/assets/img/videos/play.png" alt=""></a>
+                        <div class="vi-time">{{video.length}}</div>
+                    </div>
+                </div>
+                {% endfor %}
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Video Section End -->
+
+
