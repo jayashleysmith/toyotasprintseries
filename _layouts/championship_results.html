@@ -3,7 +3,7 @@ layout: default
 ---
 
    <!-- Breadcrumb Section Begin -->
-   <section class="breadcrumb-section set-bg" data-setbg="/assets/img/breadcrumb-bg.jpg">
+   <section class="breadcrumb-section set-bg" data-setbg="{{ site.baseurl }}/assets/img/breadcrumb-bg.jpg">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -60,7 +60,7 @@ layout: default
                                     {% for winner in page.data.championship_winners %}
                                     <tr>
                                         <td class="left-team">
-                                            <img src="/assets/img/schedule/flag-2.jpg" alt="">
+                                            <img src="{{ site.baseurl }}/assets/img/schedule/flag-2.jpg" alt="">
                                             <h4>{{winner.driver_name }}</h4>
                                         </td>
                                         <td class="st-option">
@@ -88,7 +88,7 @@ layout: default
                                     {% for winner in page.data.class_winners %}
                                     <tr>
                                         <td class="left-team">
-                                            <img src="/assets/img/schedule/flag-2.jpg" alt="">
+                                            <img src="{{ site.baseurl }}/assets/img/schedule/flag-2.jpg" alt="">
                                             <h4>{{winner.driver_name }}</h4>
                                         </td>
                                         <td class="st-option">

@@ -1,6 +1,7 @@
 ---
 layout: faq
 title: faq
+hero_title: FAQs
 permalink: /faq
 ---
 

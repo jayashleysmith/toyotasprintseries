@@ -6,7 +6,7 @@ description: A friendly sprint competition series for Toyota & Lexus based vehic
 ---
 
  <!-- Hero Section Begin -->
- <section class="hero-section set-bg" data-setbg="/assets/img/Slider07-1200x400.png">
+ <section class="hero-section set-bg" data-setbg="{{ site.baseurl }}/assets/img/Slider07-1200x400.png">
   <div class="container">
       <div class="row">
           <div class="col-lg-12">
@@ -17,7 +17,7 @@ description: A friendly sprint competition series for Toyota & Lexus based vehic
                               <div class="hs-text">
                                   <h2>{{page.title}}</h2>
                                   <h4>{{page.description}}</h4>
-                                  <a href="/events.html" class="primary-btn">See Events</a>
+                                  <a href="{{ site.baseurl }}/events.html" class="primary-btn">See Events</a>
                               </div>
                           </div>
                       </div>
@@ -44,7 +44,7 @@ description: A friendly sprint competition series for Toyota & Lexus based vehic
 
 <!-- match section being-->
 
-<section class="match-section set-bg" data-setbg="/assets/img/match/match-bg.jpg">
+<section class="match-section set-bg" data-setbg="{{ site.baseurl }}/assets/img/match/match-bg.jpg">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -82,7 +82,7 @@ description: A friendly sprint competition series for Toyota & Lexus based vehic
                             <tbody>
                                 <tr>
                                     <td class="left-team">
-                                        <img src="/assets/img/match/tf-2.jpg" alt="">
+                                        <img src="{{ site.baseurl }}/assets/img/match/tf-2.jpg" alt="">
                                         <h6>{{result.driver_name}}</h6>
                                     </td>
                                     <td class="mt-content">
@@ -187,12 +187,12 @@ description: A friendly sprint competition series for Toyota & Lexus based vehic
                 {% for video in site.data.onboard_videos %}
                
                 <div class="col-lg-3">
-                    <div class="video-item set-bg" data-setbg="{{video.thumbnail}}">
+                    <div class="video-item set-bg" data-setbg="{{ site.baseurl }}{{video.thumbnail}}">
                         <div class="vi-title">
                             <h5>{{video.title}}</h5>
                         </div>
                         <a href="{{video.youtube_link}}" class="play-btn" target="_blank"><img
-                                src="/assets/img/videos/play.png" alt=""></a>
+                                src="{{ site.baseurl }}/assets/img/videos/play.png" alt=""></a>
                         <div class="vi-time">{{video.length}}</div>
                     </div>
                 </div>
