@@ -26,6 +26,8 @@ navigation:
   url: /events/
 - text: Regulations
   url: /regulations/
+- text: Results
+  url: /results/2019/
 - text: FAQs
   url: /faq/
 - text: Gallery
