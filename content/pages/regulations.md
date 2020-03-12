@@ -11,173 +11,172 @@ Lexus, as well as the Subaru BRZ and Scion FRS.
 
 #### Class Overview
 Within the Toyota Sprint Series we run many different classes to ensure close competition.
-Pro Tuner - Tuner or heavily sponsored entry where driver or car is at a professional level
-A1 - Over 1600cc - forced induction with larger than standard turbo frame
-A2 - Over 1600c forced induction - standard turbo frame.
-A3 - Over 1600cc - forced induction - standard turbo frame - standard ecu
-B - Up to 1600cc Forced Induction
-C - Over 1600cc Normally Aspirated
-D - Up to 1600 cc Normally Aspirated
-E - Up to 1350cc Normally Aspirated
-G - Diesel
-J - Up to 1000cc Normally Aspirated
-N2 - GT86 - Standard Car - Michelin Primacy Tyre
-N1 - GT86 - Normally Aspirated - Modified
-F2 - GT86 - Forced Induction - Standard Engine
-F1 - GT86 - Forced Induction - Modified Engine
-With the exception of Pro Tuner, the classes are further split in to Street & Pro classes. eg: C- Street
-& C - Pro.
+* Pro Tuner - Tuner or heavily sponsored entry where driver or car is at a professional level
+* A1 - Over 1600cc - forced induction with larger than standard turbo frame
+* A2 - Over 1600c forced induction - standard turbo frame.
+* A3 - Over 1600cc - forced induction - standard turbo frame - standard ecu
+* B - Up to 1600cc Forced Induction
+* C - Over 1600cc Normally Aspirated
+* D - Up to 1600 cc Normally Aspirated
+* E - Up to 1350cc Normally Aspirated
+* G - Diesel
+* J - Up to 1000cc Normally Aspirated
+* N2 - GT86 - Standard Car - Michelin Primacy Tyre
+* N1 - GT86 - Normally Aspirated - Modified
+* F2 - GT86 - Forced Induction - Standard Engine
+* F1 - GT86 - Forced Induction - Modified Engine
+With the exception of Pro Tuner, the classes are further split in to Street & Pro classes. eg: C- Street  
+& C - Pro.  
 Generally speaking a Street class car will have a full interior and a normal road tyre whereas a Pro
-class car is a stripped out car with a semi slick tyre.
-Street classes must conform to all applicable Street Class & General Regs - see section S & G
-Pro classes must conform to all applicable Pro Class & General Regs - see section P & G
+class car is a stripped out car with a semi slick tyre.  
+Street classes must conform to all applicable Street Class & General Regs - see section S & G  
+Pro classes must conform to all applicable Pro Class & General Regs - see section P & G  
 Please Note: Due to the varied nature of vehicles competing we also have a gentleman’s agreement
 on class structure, and may well ask a competitor who is competing on or near a level with a higher
 class to comply with the higher class ruling as to regards safety equipment. Eg: someone builds a
 1599cc turbocharged starlet with 500bhp and sequential gearbox can run in B Pro, but will need to
-comply with A1 Pro safety equipment.
-
+comply with A1 Pro safety equipment.  
+<br>
+  
 #### Section S: Street Class - Additional Regs
 Street Modifications within class are limited to
-S1 - Shock absorbers and springs, street type coilovers up to 3 way adjustable.
-S2 - Suspension bushes may be replaced with polyurethane bushes or commercially available
+* S1 - Shock absorbers and springs, street type coilovers up to 3 way adjustable.
+* S2 - Suspension bushes may be replaced with polyurethane bushes or commercially available
 suspension arms and coilovers with rose joints are allowed.
-S3 - Must use standard suspension pick up points - upper and lower strut bracing allowed but must
+* S3 - Must use standard suspension pick up points - upper and lower strut bracing allowed but must
 be bolt on.
-S4 - Anti Roll bars - Upgraded road type allowed, must use standard pick up points or in the case of
+* S4 - Anti Roll bars - Upgraded road type allowed, must use standard pick up points or in the case of
 rear beam axles, additional points may be used.
-S5 - Engine or transmission conversions - may be allowed as long as long as they are carried out to a
+* S5 - Engine or transmission conversions - may be allowed as long as long as they are carried out to a
 high standard and supported by suitable brake and suspension upgrades. Vehicles will be allocated a
 class on a case by case basis - please contact us with full details.
-S6 - Engine Internals – Free - Except N2 & F2 GT86 which has to stay standard.
-S7 - Gearbox - no dog or sequential shift gearboxes allowed unless fitted as standard equipment.
-S8 - Exhaust free within current noise limits (105db)
-S9 - Air filter free
-S10 - Boost control free
-S11 - Turbocharger - Free - Except A2 & A3 which must retain OE type turbocharger housings –
+* S6 - Engine Internals – Free - Except N2 & F2 GT86 which has to stay standard.
+* S7 - Gearbox - no dog or sequential shift gearboxes allowed unless fitted as standard equipment.
+* S8 - Exhaust free within current noise limits (105db)
+* S9 - Air filter free
+* S10 - Boost control free
+* S11 - Turbocharger - Free - Except A2 & A3 which must retain OE type turbocharger housings –
 internal turbo modifications such as hybrids are allowed, the turbocharger must retain an internal
 wastegate. (conversions to single port internal wastegates are allowed)
-S12 - Fuel – must be petrol / diesel - commercially available race fuel and octane boosters allowed.
-No Methanol as a main fuel but can be mixed with water when used as part of a water injection
+* S12 - Fuel – must be petrol / diesel - commercially available race fuel and octane boosters allowed. No Methanol as a main fuel but can be mixed with water when used as part of a water injection
 system
-S13 - Must retain all glass as fitted by manufacturer.
-S14 - Carbon and FRP bonnet, boot lid and front wings are allowed. All must be securely fixed using
+* S13 - Must retain all glass as fitted by manufacturer.
+* S14 - Carbon and FRP bonnet, boot lid and front wings are allowed. All must be securely fixed using
 standard catch / hinges or additional pins if deemed necessary.
-S15 - No dry sumps, oil or fuel lines inside the car.
-S16 – Tyres must be road legal and have a minimum of 1.6mm tread depth throughout the event.
-All normal E marked radial road tyres are acceptable for Street Classes except the following:
-MSA list 1b or 1c tyres are not permitted
-Tyres marked “competition use only” or “Not for highway use” are not permitted.
-Slick and Rally slick type tyres are not permitted
-No tyre cutting permitted
-No tyre warmers permitted
+* S15 - No dry sumps, oil or fuel lines inside the car.
+* S16 – Tyres must be road legal and have a minimum of 1.6mm tread depth throughout the event.
+All normal E marked radial road tyres are acceptable for Street Classes except the following:  
+MSA list 1b or 1c tyres are not permitted  
+Tyres marked “competition use only” or “Not for highway use” are not permitted.    
+Slick and Rally slick type tyres are not permitted    
+No tyre cutting permitted  
+No tyre warmers permitted  
 If in doubt, ask an official
-S17 - Wheel size may be increased but not decreased.
-S18 - Brakes - Free - Hydraulic handbrake allowed but no bias valves
-S19 - Full interior to be retained - spare wheel & jack/brace to be removed. If using a roll cage then
+* S17 - Wheel size may be increased but not decreased.
+* S18 - Brakes - Free - Hydraulic handbrake allowed but no bias valves
+* S19 - Full interior to be retained - spare wheel & jack/brace to be removed. If using a roll cage then
 interior may be cut to allow cage fitment, but no more than necessary.
-S20 - Front seats may be changed and harness and bolt in roll over protection may be added.
-S21 - Street style body kit allowed ie: front and rear bumpers, side skirts, front lip spoilers, rear boot
+* S20 - Front seats may be changed and harness and bolt in roll over protection may be added.
+* S21 - Street style body kit allowed ie: front and rear bumpers, side skirts, front lip spoilers, rear boot
 spoilers and rear lip spoilers. Front splitters - allowed but must not protrude forward past existing
 bodywork more than 75mm, and not extend more than 25mm either side of original bumper.
 Canards and vortex generators which are road type and do not extend past bodywork. (items should
 not have sharp edges and be deemed "road legal" eg: TRD front canards), no wide arch extensions or
 conversions etc
-S22 - Vehicles are not required to have an MOT but must be safe and mechanically sound. Road tax
-is not required.
-S23 - Advised for all Street classes
-1.75L Hand Held Fire extinguisher securely mounted
-Rollover protection
+* S22 - Vehicles are not required to have an MOT but must be safe and mechanically sound. Road tax
+is not required. 
+* S23 - Advised for all Street classes  
+1.75L Hand Held Fire extinguisher securely mounted  
+Rollover protection  
 Race Suit & Gloves
-
+<Br>
 #### Section P: Pro Class Regs
-P1 - Pro Tuner & A1 Pro - Full Roll cage mandatory, Fit for Purpose. Self or manufacturer certificating
+* P1 - Pro Tuner & A1 Pro - Full Roll cage mandatory, Fit for Purpose. Self or manufacturer certificating
 with Scrutineer veto option.(Scrutineer's decision will be final).
-P2 - Pro Tuner & A1 Pro - Must carry at least a1.75kg hand held extinguisher securely mounted -
+* P2 - Pro Tuner & A1 Pro - Must carry at least a1.75kg hand held extinguisher securely mounted -
 plumbed in system advised.
-P3 - Pro Tuner & A1 Pro - FIA Approved Cut Off switch advised - must be accessible to driver and
+* P3 - Pro Tuner & A1 Pro - FIA Approved Cut Off switch advised - must be accessible to driver and
 linked to left hand side of scuttle panel and be clearly marked.
-All Pro Classes
-P4 - Roll cages, strengthening and seam welding is allowed but not space frames.
-P5 - FWD to 4WD conversions – allowed
-P6 - FWD to RWD conversions – allowed
-P7 - RWD to 4WD conversions allowed
-P8 - Engine conversions(ie: swaps) are allowed as long as they are carried out to a high safety
+All Pro Classes  
+* P4 - Roll cages, strengthening and seam welding is allowed but not space frames.
+* P5 - FWD to 4WD conversions – allowed
+* P6 - FWD to RWD conversions – allowed
+* P7 - RWD to 4WD conversions allowed
+* P8 - Engine conversions(ie: swaps) are allowed as long as they are carried out to a high safety
 standard and appropriate brake and suspension modifications are also carried out – some
 conversions may be require more stringent safety equipment – Please contact our technical advisor
 with full details of modifications.
-P9 - Perspex side and rear glass – allowed, but must be bolted in place.
-P10 - Body panels may be replaced with lightweight versions but must be securely fixed.
-P11 - Doors may be lightened or replaced with grp/carbon versions only if a roll cage with door bars
+* P9 - Perspex side and rear glass – allowed, but must be bolted in place.
+* P10 - Body panels may be replaced with lightweight versions but must be securely fixed.
+* P11 - Doors may be lightened or replaced with grp/carbon versions only if a roll cage with door bars
 is present.
-P12 - Standard door cards may be removed, but the inside of the door must be covered in alloy,
-plastic or kevlar sheet with no sharp edges.
-P13 - Suspension & brake modifications are free.
-P14 - Body kits & aero enhancement allowed
-P15 - Fuel – must be petrol or diesel - commercially available race fuel and octane boosters allowed -
-No Methanol as a main fuel but can be mixed with water when used as part of a water injection
+* P12 - Standard door cards may be removed, but the inside of the door must be covered in alloy plastic or kevlar sheet with no sharp edges.
+* P13 - Suspension & brake modifications are free.
+* P14 - Body kits & aero enhancement allowed
+* P15 - Fuel – must be petrol or diesel - commercially available race fuel and octane boosters allowed - No Methanol as a main fuel but can be mixed with water when used as part of a water injection
 system
-P16 – Tyres must be road legal and have a minimum of 1.6mm tread depth throughout the event.
+* P16 – Tyres must be road legal and have a minimum of 1.6mm tread depth throughout the event.
 All normal E marked radial road tyres including MSA list 1b or 1c tyres are acceptable for Pro Classes
-except the following:
-Tyres marked “competition use only” or “Not for highway use” are not permitted.
-Slick and Rally slick type tyres are not permitted.
-No tyre cutting allowed.
-No tyre warmers permitted
-If in doubt, ask an official
-P17 - If a vehicle does not have a roll cage, competition seat and full harness, then the standard
+except the following:  
+Tyres marked “competition use only” or “Not for highway use” are not permitted.  
+Slick and Rally slick type tyres are not permitted.  
+No tyre cutting allowed.  
+No tyre warmers permitted  
+If in doubt, ask an official  
+* P17 - If a vehicle does not have a roll cage, competition seat and full harness, then the standard
 vehicle interior must remain around the driver. ie: Dashboard, steering column covers, centre
 console, door panel and headlining. Carpet may be removed but there must be no sharp edges that
 could come in to contact with the driver in an accident.
-P18 - Fuel lines inside the car must be metal or braided steel and no joins will be permitted within
+* P18 - Fuel lines inside the car must be metal or braided steel and no joins will be permitted within
 the passenger compartment.
-P19 - Fuel systems mounted in the boot area must be separated from the passenger compartment
+* P19 - Fuel systems mounted in the boot area must be separated from the passenger compartment
 by a firewall. Where a fuel system is filled from inside the vehicle a suitable drainage system must be
 in place to drain spilt fuel to the outside of the vehicle.
-P20 - Vehicles are not required to have an MOT but must be safe and mechanically sound. Road tax
-is not required.
-
+* P20 - Vehicles are not required to have an MOT but must be safe and mechanically sound. Road tax
+is not required.  
+<br>
 #### Section G: General Regs - applies to all Classes
-G1 - Body shell must be originally manufactured by Toyota.(or Subaru if GT86 / BRZ)
-G2 - Engine block must be Toyota or in the case of GT86 - Subaru engines are now allowed.
-G3 - Laminated glass front windscreen – mandatory
-G4 - Cabriolet MR2-Spider must be fitted with rollover protection to MSA spec Q1.5, which is a main
+* G1 - Body shell must be originally manufactured by Toyota.(or Subaru if GT86 / BRZ)
+* *G2 - Engine block must be Toyota or in the case of GT86 - Subaru engines are now allowed.
+* G3 - Laminated glass front windscreen – mandatory
+* G4 - Cabriolet MR2-Spider must be fitted with rollover protection to MSA spec Q1.5, which is a main
 hoop and rear stays fixed to chassis as a minimum
-G5 - Any T/bar glass or accessory type sunroof glass must be removed. We advise vehicles with
+* G5 - Any T/bar glass or accessory type sunroof glass must be removed. We advise vehicles with
 factory fitted sunroofs to cover the glass with security film and keep the interior cover closed when
 competing. Sunroofs must remain closed whilst competing.
-G7 - Nitrous oxide – Not allowed
-G10 - Front and rear lights & front wipers must be in working condition.
-G11 - Headlight glass must be protected against breakage by tape or security film.
-G13 - Batteries must be securely mounted, and if inside the passenger compartment, they must be
+* G7 - Nitrous oxide – Not allowed
+* G10 - Front and rear lights & front wipers must be in working condition.
+* G11 - Headlight glass must be protected against breakage by tape or security film.
+* G13 - Batteries must be securely mounted, and if inside the passenger compartment, they must be
 contained in a sealed non conductive box (this includes gel type racing batteries)
-G14 - Battery positive terminal must be covered and negative battery lead should be marked yellow
+* G14 - Battery positive terminal must be covered and negative battery lead should be marked yellow
 to identify it.
-G15 - No loose or hanging pipes/wires
-G16 - Exhaust system free – must be below 105db
-G17 - Wheels and tyres must be free from defects and are not permitted to touch or extend past the
+* G15 - No loose or hanging pipes/wires
+* G16 - Exhaust system free – must be below 105db
+* G17 - Wheels and tyres must be free from defects and are not permitted to touch or extend past the
 bodywork.
-G18 - No aluminium wheel studs allowed.
-G19 - Wheel bearings, ball joints, suspension and steering free from defects
-G20 - Foot brake system operative
-G21 - Hand brake system operative
-G22 - No major fluid leaks
-G23 - Seats and seatbelts secure
-G24 - All vehicles must be equipped with towing eyes, one at the front and one at the rear. They
+* G18 - No aluminium wheel studs allowed.
+* G19 - Wheel bearings, ball joints, suspension and steering free from defects
+* G20 - Foot brake system operative
+* G21 - Hand brake system operative
+* G22 - No major fluid leaks
+* G23 - Seats and seatbelts secure
+* G24 - All vehicles must be equipped with towing eyes, one at the front and one at the rear. They
 must be clearly visible, or have an arrow or ‘tow’ painted on the car directing sight to the towing eye
 itself if located out of sight.
-G25 - In the event of an impact the organisers reserve the right to re-inspect the vehicle before it is
+* G25 - In the event of an impact the organisers reserve the right to re-inspect the vehicle before it is
 allowed to return to the circuit.
-G26 - If using aftermarket full harness type seatbelts, they must be mounted to manufacturer
+* G26 - If using aftermarket full harness type seatbelts, they must be mounted to manufacturer
 recommendations
-G27 - All vehicles will be subjected to scrutineering and at least should be fit for purpose. The driver
+* G27 - All vehicles will be subjected to scrutineering and at least should be fit for purpose. The driver
 is responsible for ensuring the car fully complies with the regulations – being passed by the
 scrutineer is not a guarantee that it is fault free – every detail cannot be checked every time.
-G28 - All competing vehicles need a VSD (Vehicle safety Declaration)
-G29 - Drivers must hold a full European Union road license, which you will need to present at signing
+* G28 - All competing vehicles need a VSD (Vehicle safety Declaration)
+* G29 - Drivers must hold a full European Union road license, which you will need to present at signing
 on along with your vehicle safety declaration form and MOT certificate (where applicable)
-G30 - All competitors must hold an IOPD Competition license. These will be available on the day of
-the event at a cost of £5 for a day licence, or £15 for an Annual Licence.
+* G30 - All competitors must hold an IOPD Competition license. These will be available on the day of
+the event at a cost of £5 for a day licence, or £15 for an Annual Licence.  
+<br>
 #### Driver Attire
 G31 – Helmets
 A: Helmets must be suitable for the activity and in a good, safe condition. Helmets with protruding

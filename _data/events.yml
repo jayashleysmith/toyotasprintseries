@@ -1,15 +1,34 @@
-- circuit: Blyton
+- circuit: Blyton Park
   date: 20/04/19
-  book_link: javelin.com
+  past: false
+  book_link: https://www.javelintrackdays.co.uk/trackdays/Sprint-Events/JTSS/JTSS20R1
 
-- circuit: Snetterton
-  date: 20/04/22
-  book_link: javelin.com
+- circuit: Snetterton 300
+  date: 20/05/10
+  past: false
+  book_link: https://www.javelintrackdays.co.uk/trackdays/Sprint-Events/JTSS/JTSS20R2
 
-- circuit: Angers
-  date: 20/04/20
-  book_link: javelin.com
+- circuit: Anglesey GP
+  date: 20/07/04
+  past: false
+  book_link: https://www.javelintrackdays.co.uk/trackdays/Sprint-Events/JTSS/JTSS20R3
 
-- circuit: Angers
-  date: 20/04/16
-  book_link: javelin.com
+- circuit: Three Sisters
+  date: 20/08/01
+  past: false
+  book_link: https://www.javelintrackdays.co.uk/trackdays/Sprint-Events/JTSS/JTSS20R4
+
+- circuit: Three Sisters
+  date: 20/08/02
+  past: false
+  book_link: https://www.javelintrackdays.co.uk/trackdays/Sprint-Events/JTSS/JTSS20R5
+
+- circuit: Croft
+  date: 20/09/20
+  past: false
+  book_link: https://www.javelintrackdays.co.uk/trackdays/Sprint-Events/JTSS/JTSS20R6
+
+- circuit: Cadwell Park
+  date: 20/10/10
+  past: false
+  book_link: https://www.javelintrackdays.co.uk/trackdays/Sprint-Events/JTSS/JTSS20R8

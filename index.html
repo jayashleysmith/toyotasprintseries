@@ -17,7 +17,7 @@ description: A friendly sprint competition series for Toyota & Lexus based vehic
                               <div class="hs-text">
                                   <h2>{{page.title}}</h2>
                                   <h4>{{page.description}}</h4>
-                                  <a href="{{ site.baseurl }}/events.html" class="primary-btn">See Events</a>
+                                  <a href="{{ site.baseurl }}/events/" class="primary-btn">See Events</a>
                               </div>
                           </div>
                       </div>
@@ -50,8 +50,10 @@ description: A friendly sprint competition series for Toyota & Lexus based vehic
             <div class="col-lg-6">
                 <div class="ms-content">
                     <h4>Next Events</h4>
-                    {% assign sorted_events = site.data.events | sort: "date" %}
+                    {% assign today_date = 'now' | date: "%y/%m/%d" %}
+                    {% assign sorted_events = site.data.events | sort: "date" | where: "past", "false"%}
                     {% for event in sorted_events limit: 3  %}
+                 
                     <div class="mc-table">
                         <table>
                             <tbody>
@@ -65,9 +67,10 @@ description: A friendly sprint competition series for Toyota & Lexus based vehic
                             </tbody>
                         </table>
                     </div>
+                    
                      {% endfor %}
 
-                    
+                    {{today_date}}
                     
                 </div>
             </div>

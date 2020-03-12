@@ -6,15 +6,22 @@
       </div>
       
      
-      <ul class="main-menu mobile-menu">
-          <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-                              <li><a href="{{ site.baseurl }}/events">Events</a></li>
-                              <li><a href="{{ site.baseurl }}/regulations">Regulations</a></li>
-                              <li><a href="{{ site.baseurl }}/results">Results</a></li>
-                              <li><a href="{{ site.baseurl }}/faq/">FAQ</a></li>
-                              <li><a href="{{ site.baseurl }}/gallery">Gallery</a></li>
-                              <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
-      </ul>
+      
+        {% unless page.layout == 'front' %}
+        <ul class="main-menu mobile-menu">
+          {% for link in site.navigation %}
+            {% assign current = nil %}
+            {% if page.url == link.url or page.layout == link.layout %}
+              {% assign current = 'current' %}
+            {% endif %}
+      
+            <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+              <a class="{{ current }}" href="{{ site.baseurl }}/{{ link.url }}">{{ link.text }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endunless %}
+      
       <div id="mobile-menu-wrap"></div>
   </div>
   <!-- Offcanvas Menu Section End -->
@@ -29,15 +36,21 @@
                   </div>
                   <div class="col-lg-10">
                       <div class="nav-menu">
-                          <ul class="main-menu">
-                              <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-                              <li><a href="{{ site.baseurl }}/events">Events</a></li>
-                              <li><a href="{{ site.baseurl }}/regulations">Regulations</a></li>
-                              <li><a href="{{ site.baseurl }}/results/2019">Results</a></li>
-                              <li><a href="{{ site.baseurl }}/faq/">FAQ</a></li>
-                              <li><a href="{{ site.baseurl }}/gallery">Gallery</a></li>
-                              <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
-                          </ul>
+                       
+                            {% unless page.layout == 'front' %}
+                            <ul class="main-menu">
+                              {% for link in site.navigation %}
+                                {% assign current = nil %}
+                                {% if page.url == link.url or page.layout == link.layout %}
+                                  {% assign current = 'active' %}
+                                {% endif %}
+                          
+                                <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+                                  <a class="{{ current }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          {% endunless %}
                           
                       </div>
                   </div>

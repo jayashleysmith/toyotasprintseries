@@ -57,8 +57,8 @@ layout: default
                                 <li>
                                     <h5>Social</h5>
                                     <div class="cw-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/groups/ToyotaSprintSeries/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://www.instagram.com/toyotasprintseries/" target="_blank"><i class="fa fa-instagram"></i></a>
                                        
                                     </div>
                                 </li>
@@ -68,6 +68,12 @@ layout: default
                 </div>
             </div>
         </div>
+    </section>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/d/embed?mid=12L7-R0ZVHSQZkNek3lnTCGe9dcUaSj9i&hl=en" width="640" height="500"></iframe>
+    </div>
+    <section>
+       
         <div class="club-tab-list">
             <div class="row">
                 <div class="col-lg-8 m-auto">
@@ -82,10 +88,9 @@ layout: default
 
                                 <div class="ct-item">
                                     <div class="ci-text">
-                                       
-                                        <h5>{{forloop.index}} - {{event.circuit}}</h5>
+                                        <h5>{{forloop.index}}. {{event.circuit}} - {{event.date | date: "%a %d %b %Y" }} </h5>
                                     </div>
-                                    <div class="ci-name">{{event.date | date: "%a %d %b %Y" }}<br><span>Book Now</span></div>
+                                    <div class="ci-name"><br><span><a href="{{event.book_link}}" target="_blank">Book Now</a></span></div>
                                 </div>
 
                                 {% endfor %}
@@ -99,3 +104,5 @@ layout: default
     </div>
 </section>
 <!-- Club Section End -->
+
+

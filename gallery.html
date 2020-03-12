@@ -1,0 +1,33 @@
+---
+layout: default
+title: Gallery
+permalink: /gallery/
+---
+
+   <!-- Breadcrumb Section Begin -->
+   <section class="breadcrumb-section set-bg" data-setbg="{{ site.baseurl }}/assets/img/results.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="bs-text">
+                    <h2>{{page.title}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+
+<div class="container">
+
+<ul>
+
+  {% assign gallery = site.pages | where: "layout", "gallery_album" %}
+  {% for photo_page in gallery %}
+    <li>
+      <a href="{{ photo_page.url | prepend: site.baseurl }}">{{ photo_page.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</div>
