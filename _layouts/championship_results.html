@@ -20,7 +20,7 @@ layout: default
     <section class="schedule-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 left-blog-pad">
+                <div class="col-lg-9 left-blog-pad">
                     <div class="schedule-text">
                         <h4 class="st-title">{{page.year}} Rounds</h4>
                         <div class="st-table">
@@ -39,7 +39,7 @@ layout: default
                                         </td>
                                        
                                         <td class="right-team">      
-                                             <a href="{{round.circuit | downcase}}">                            
+                                             <a href="{{round.link | downcase}}">                            
                                             <h4>View Results</h4>
                                              </a>
                                         </td>
@@ -53,7 +53,7 @@ layout: default
                         </div>
                     </div>
                     <div class="schedule-text">
-                        <h4 class="st-title">Overall Championship Winners {{page.year}}</h4>
+                        <h4 class="st-title">Overall Winners {{page.year}}</h4>
                         <div class="st-table">
                             <table>
                                 <tbody>
@@ -81,7 +81,7 @@ layout: default
                         </div>
                     </div>
                     <div class="schedule-text">
-                        <h4 class="st-title">Class Championship Winners {{page.year}}</h4>
+                        <h4 class="st-title">Class Winners {{page.year}}</h4>
                         <div class="st-table">
                             <table>
                                 <tbody>
@@ -107,7 +107,7 @@ layout: default
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="schedule-sidebar">
                         {% include previous_years.html %}
                         {% include champions.html %}
@@ -126,12 +126,15 @@ layout: default
                                 <tr>
                                     <th class="th-o">Pos</th>
                                     <th>Driver</th>
+                                    <th class="th-o">Class</th>
                                     <th class="th-o">R1</th>
                                     <th class="th-o">R2</th>
                                     <th class="th-o">R3</th>
                                     <th class="th-o">R4</th>
                                     <th class="th-o">R5</th>
                                     <th class="th-o">R6</th>
+                                    <th class="th-o">R7</th>
+                                    <th class="th-o">R8</th>
                                     <th class="th-o">Dropped</th>
                                     <th class="th-o">Total</th>
                                 </tr>
@@ -142,15 +145,17 @@ layout: default
                                 <tr>
                                     <td>{{ forloop.index }}</td>
                                     <td class="team-name">
-                                       
                                         <span>{{entrant.driver_name}}</span>
                                     </td>
+                                    <td>{{entrant.class}}</td>
                                     <td>{{entrant.R1}}</td>
                                     <td>{{entrant.R2}}</td>
                                     <td>{{entrant.R3}}</td>
                                     <td>{{entrant.R4}}</td>
                                     <td>{{entrant.R5}}</td>
                                     <td>{{entrant.R6}}</td>
+                                    <td>{{entrant.R7}}</td>
+                                    <td>{{entrant.R8}}</td>
                                     <td>{{entrant.Dropped}}</td>
                                     <td>{{entrant.Total}}</td>
                                 </tr>

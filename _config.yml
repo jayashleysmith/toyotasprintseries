@@ -20,20 +20,20 @@ url: https://jayashleysmith.github.io
 baseurl: "/toyotasprintseries"
 
 navigation:
-- text: Home
-  url: /
-- text: Events
-  url: /events/
-- text: Regulations
-  url: /regulations/
-- text: Results
-  url: /results/2019/
-- text: FAQs
-  url: /faq/
-- text: Gallery
-  url: /gallery/
-- text: Contact Us
-  url: /contact/
+  - text: Home
+    url: /
+  - text: Events
+    url: /events/
+  - text: Regulations
+    url: /regulations/
+  - text: Results
+    url: /results/2019/
+  - text: FAQs
+    url: /faq/
+  - text: Gallery
+    url: /gallery/
+  - text: Contact Us
+    url: /contact/
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -58,7 +58,6 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
 
 # Exclude these files from your production _site
 exclude:
